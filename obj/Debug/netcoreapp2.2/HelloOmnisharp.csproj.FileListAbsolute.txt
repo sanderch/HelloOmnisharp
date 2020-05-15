@@ -1,4 +1,0 @@
-/home/alex/Projects/omnisharphello/HelloOmnisharp/obj/Debug/netcoreapp2.2/HelloOmnisharp.csprojAssemblyReference.cache
-/home/alex/Projects/omnisharphello/HelloOmnisharp/obj/Debug/netcoreapp2.2/HelloOmnisharp.csproj.CoreCompileInputs.cache
-/home/alex/Projects/omnisharphello/HelloOmnisharp/obj/Debug/netcoreapp2.2/HelloOmnisharp.AssemblyInfoInputs.cache
-/home/alex/Projects/omnisharphello/HelloOmnisharp/obj/Debug/netcoreapp2.2/HelloOmnisharp.AssemblyInfo.cs
