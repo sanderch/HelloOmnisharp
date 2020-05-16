@@ -6,9 +6,6 @@ namespace HelloOmnisharp
     {
         static void Main(string[] args)
         {
-            // comment comment
-            // one another comment
-            // third comment sdfsdf 
             var human = new Human();
             Console.WriteLine("Hello World!");
             Console.WriteLine(human.type);
