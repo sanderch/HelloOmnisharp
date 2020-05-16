@@ -4,6 +4,7 @@ namespace HelloOmnisharp
 {
     public class Human
     {
+        // comment in human
         public Human()
         {
             this.type = "homo sapiens";
