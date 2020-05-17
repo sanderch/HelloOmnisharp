@@ -22,6 +22,7 @@ namespace HelloOmnisharp
             ConsoleColor foregroundColor = Console.ForegroundColor;
             Console.ForegroundColor = color;
             Console.WriteLine(str);
+            Console.ForegroundColor = foregroundColor;
         }
     }
 }
