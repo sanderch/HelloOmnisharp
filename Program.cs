@@ -14,14 +14,14 @@ namespace HelloOmnisharp
             };
             Console.WriteLine("Hello World!");
             Console.WriteLine(human.type);
-            WriteColored(human, ConsoleColor.DarkYellow);
+            WriteColored(human.FullName, ConsoleColor.DarkYellow);
         }
 
-        private static void WriteColored(Human human, ConsoleColor color)
+        private static void WriteColored(string str, ConsoleColor color)
         {
             ConsoleColor foregroundColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(human.FullName);
+            Console.ForegroundColor = color;
+            Console.WriteLine(str);
         }
     }
 }
