@@ -16,10 +16,15 @@ namespace HelloOmnisharp
             Console.WriteLine(human.type);
             WriteColored(human.FullName, ConsoleColor.DarkYellow);
 
-            HttpStyleUriParser parser = new HttpStyleUriParser(); 
+            HttpStyleUriParser parser = new HttpStyleUriParser();
             WriteColored(parser.ToString(), ConsoleColor.Red);
             WriteColored(parser.GetType().ToString(), ConsoleColor.Magenta);
 
+            TestIntParse();
+        }
+
+        private static void TestIntParse()
+        {
             WriteColored(intParse("abc").ToString(), ConsoleColor.Red);
             WriteColored(intParse("1234").ToString(), ConsoleColor.Red);
             WriteColored(intParse("0").ToString(), ConsoleColor.Red);
